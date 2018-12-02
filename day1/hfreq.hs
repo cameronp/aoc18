@@ -37,7 +37,6 @@ findDupe' (Process allCs cs freqs f) =
 findDupe' (Complete i) = i
 
 
-
 part1 :: IO Integer
 part1 = do
     cs <- commands
@@ -47,7 +46,6 @@ part2 :: IO Integer
 part2 = do
     cs <- commands
     return (findDupe cs) 
-
 
 main = 
     do
