@@ -55,6 +55,7 @@ closeMatch a b = closeMatch' a b 0
 
 closeMatch' "" "" 1 = True
 closeMatch' "" "" _ = False
+closeMatch' _ _ 2 = False
 closeMatch' (h1 : t1) (h2 : t2) n
     | h1 == h2 = closeMatch' t1 t2 n
     | otherwise = closeMatch' t1 t2 (n + 1) 
