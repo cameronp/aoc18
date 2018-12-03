@@ -1,0 +1,6 @@
+Configuring OneTuple-0.2.2...
+Preprocessing library for OneTuple-0.2.2..
+Building library for OneTuple-0.2.2..
+[1 of 1] Compiling Data.Tuple.OneTuple ( Data/Tuple/OneTuple.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Data/Tuple/OneTuple.o )
+Installing library in /home/cameronp/.stack/snapshots/x86_64-linux/lts-12.21/8.4.4/lib/x86_64-linux-ghc-8.4.4/OneTuple-0.2.2-LXqpUObh9fFAZofghYnL2B
+Registering library for OneTuple-0.2.2..
